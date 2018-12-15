@@ -3,48 +3,51 @@
 ## 网站地址
 ### 主站
 + https://free-ss.site/
-### 镜像站
+### 临时镜像站
 + https://free-ss.tw/
 ### 注意事项
++ 禁止使用免费账号进行黑客攻击，BT下载，滥发垃圾邮件。这些账号来之不易，请珍惜使用。
 + 主站不更换，为永久地址，请尽量使用主站来访问。
 + 镜像站为临时地址，人工确认被墙后，会手动更换。
 + 所有站点都需要输入完整的地址 https:// + 域名，注意是 https:// ，不是 http://
 ------
 ## 使用方法
 ### V账号使用方法
-1. [官网介绍](https://v2ray.com/)
-2. Windows
-    > 方法一：下载[核心程序](https://github.com/v2ray/v2ray-core/releases)，下载网站上的配置文件 config.json，覆盖到程序目录的同名文件，双击 v2ray.exe 运行。<p>
-    > 方法二：下载[界面程序](https://github.com/2dust/v2rayN/releases)，双击 v2rayN.exe 运行，然后扫描网站上的二维码。
-3. Android
-    > 下载[安装程序](https://github.com/2dust/v2rayNG/releases)，运行后扫描网站上的二维码。
-4. Linux
-    > 下载[核心程序](https://github.com/v2ray/v2ray-core/releases)，下载网站提供的配置文件，命令行下运行 v2ray -config config.json
+1. [V2Ray介绍](https://v2ray.com/)
+2. Windows系统使用方法
+    > 方法一：下载[核心程序](https://github.com/v2ray/v2ray-core/releases) v2ray-windows-64.zip 或 v2ray-windows-32.zip，下载网站上的配置文件 config.json，覆盖到程序目录的同名文件，双击 v2ray.exe 运行。<p>
+    > 方法二：下载[界面程序](https://github.com/2dust/v2rayN/releases) v2rayN-Core.zip，双击 v2rayN.exe 运行，然后扫描网站上的二维码。
+3. Android系统使用方法
+    > 下载[安装程序](https://github.com/2dust/v2rayNG/releases) app-universal-release.apk，运行后扫描网站上的二维码。
+4. Linux系统使用方法
+    > 下载[核心程序](https://github.com/v2ray/v2ray-core/releases) v2ray-linux-64.zip 或 v2ray-linux-32.zip，下载网站提供的配置文件 config.json，覆盖到程序目录的同名文件，同目录下用命令行下运行 ./v2ray -config config.json
 ### S账号使用方法
-1. [官网介绍](https://shadowsocks.org/)
-2. Windows
-    > 下载[安装程序](https://github.com/shadowsocks/shadowsocks-windows/releases)，运行后扫描网站上的二维码。
-3. Android
-    > 下载[安装程序](https://github.com/shadowsocks/shadowsocks-android/releases)， 运行后扫描网站上的二维码。
-4. Linux
-    > [安装、配置与运行](https://github.com/shadowsocks/shadowsocks-libev)
+1. [Shadowsocks介绍](https://shadowsocks.org/)
+2. Windows系统使用方法
+    > 下载[安装程序](https://github.com/shadowsocks/shadowsocks-windows/releases) Shadowsocks-x.x.x.zip，运行后扫描网站上的二维码。
+3. Android系统使用方法
+    > 下载[安装程序](https://github.com/shadowsocks/shadowsocks-android/releases) shadowsocks--universal-x.x.x.apk，运行后扫描网站上的二维码。
+4. Linux系统使用方法
+    > 参考[说明文档](https://github.com/shadowsocks/shadowsocks-libev) 进行安装、配置与运行
 ### 浏览器插件
     推荐使用 [SwitchyOmega](https://www.switchyomega.com/)
 ------
 ## 账号来源与特点
 ### V账号
-1. 来源于网站， free-ss.site 保障其安全性
+1. 来源于网站， free-ss.site 保障其隐私性和安全性
 2. 每天早上8点钟自动更换UID
 3. 已限制不能访问中国大陆的网站
-4. 下载速度有一定的限制，月底流量耗尽将停止使用
+4. 下载速度有一定的限制，月底若流量耗尽将停止使用
 ### S账号
-1. 来源于第三方，free-ss.site 不保障其安全性
+1. 来源于第三方，free-ss.site 不保障其隐私性和安全性
 2. 账号有效期不固定，free-ss.site 每5分钟检测其是否可用
 3. 其他限制未知
 ------
 ## 问答
 1. V/T/U/M 是什么意思？
     > V 表示美国 Vultr 检测点，T 表示中国电信(China Telecom)检测点，U 表示中国联通(China Unicom)检测点，M 表示中国移动(China Mobile)检测点。检测点分数越高越好，最高为10分。当分数降为0分时，网站将不显示该账号。↑ 表示分数正在上升，↓ 表示分数正在下降。
+    > 注意，这些分数仅表示各账号在过去一小时内的可用性，并不能反应各个账号的速度以及延迟。也就是说，分数最高的账号不一定是速度最快的，而是最近一小时内表现最稳定的。分数值降低的可能原因有：账号失效、服务器繁忙暂停响应、检测点线路丢包等等。
+    > 当观察到VTUM分数全都在下降，而且最后检测可用的时间大于10分钟，说明这个账号已经失效了。当观察到V分数在上升，TUM分数都在下降，说明这个账号已经被墙了。
 2. 为什么没有订阅地址？
     > 一、防止恶意使用：主要防止有人把订阅地址设置在路由器上，定期自动更换失效的账号从而实现24小时不间断下载。二、防止GFW订阅：如果有订阅，大家方便了，但GFW也能自动订阅自动封锁了。
 3. 为什么没有SSR账号？
