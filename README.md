@@ -30,7 +30,7 @@
 4. Linux系统使用方法
     > 参考[说明文档](https://github.com/shadowsocks/shadowsocks-libev) 进行安装、配置与运行
 ### 浏览器插件
-    推荐使用 [SwitchyOmega](https://www.switchyomega.com/)
+    推荐使用[SwitchyOmega](https://www.switchyomega.com/)
 ------
 ## 账号来源与特点
 ### V账号
@@ -69,6 +69,6 @@
 1. V账号比较稳定，不需要设置检测点。所有检测点仅检测S账号。
 2. Vultr检测点线路干扰比较小，使用 shadowsocks-libev 进行真实的发包检测。主要检测账号是否存活。
 3. 电信联通移动检测点线路干扰比较大，使用建立 socket 连接的方式来检测TCP端口，不发送真实的Shadowsocks封包。主要检测账号是否被墙，以及各运营商的线路情况。（存活与被墙是两个不同的概念，仔细想想它们的区别）
-4. 检测程序有空整理后再公布。
+4. [检测程序细节](https://github.com/free-ss/free-ss.site/blob/master/%E6%A3%80%E6%B5%8B%E7%A8%8B%E5%BA%8F%E4%BB%8B%E7%BB%8D.md)
 ### 扫描
 1. 有些节点根本不是爬虫爬取而来的，而是根据一定的规则直接扫描出来的。这个属于 free-ss.site 的黑科技，暂不公布具体细节。
