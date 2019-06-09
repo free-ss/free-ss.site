@@ -30,12 +30,12 @@
 4. Linux系统使用方法
     > 参考[说明文档](https://github.com/shadowsocks/shadowsocks-libev) 进行安装、配置与运行
 ### 浏览器插件
-    推荐使用[SwitchyOmega](https://www.switchyomega.com/)
+    推荐使用[SwitchyOmega](https://proxy-switchyomega.com/) 
 ------
 ## 账号来源与特点
 ### V账号
 1. 来源于网站， free-ss.site 保障其隐私性和安全性
-2. 每天早上8点钟自动更换UID
+2. 每天8点或20点自动更换UID
 3. 已限制不能访问中国大陆的网站
 4. 下载速度有一定的限制，月底若流量耗尽将停止使用
 ### S账号
