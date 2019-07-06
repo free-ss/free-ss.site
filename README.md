@@ -3,13 +3,12 @@
 ## 网站地址
 ### 主站
 + https://free-ss.site/
-### 临时镜像站
-+ https://free-ss.ooo/
+### 第三方镜像站
++ https://www.youneed.win/free-ss
 ### 注意事项
 + 禁止使用免费账号进行黑客攻击，BT下载，滥发垃圾邮件。这些账号来之不易，请珍惜使用。
 + 主站不更换，为永久地址，请尽量使用主站来访问。
 + 镜像站为临时地址，人工确认被墙后，会手动更换。
-+ 所有站点都需要输入完整的地址 https:// + 域名，注意是 https:// ，不是 http://
 ------
 ## 使用方法
 ### V账号使用方法
@@ -30,7 +29,7 @@
 4. Linux系统使用方法
     > 参考[说明文档](https://github.com/shadowsocks/shadowsocks-libev) 进行安装、配置与运行
 ### 浏览器插件
-    推荐使用[SwitchyOmega](https://proxy-switchyomega.com/) 
+    > 推荐使用[SwitchyOmega](https://proxy-switchyomega.com/)
 ------
 ## 账号来源与特点
 ### V账号
