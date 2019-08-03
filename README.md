@@ -4,7 +4,7 @@
 ### 主站
 + https://free-ss.site/
 ### 第三方镜像站
-+ https://www.youneed.win/free-ss
++ https://flywind.ml/free-ss
 ### 注意事项
 + 禁止使用免费账号进行黑客攻击，BT下载，滥发垃圾邮件。这些账号来之不易，请珍惜使用。
 + 主站不更换，为永久地址，请尽量使用主站来访问。
