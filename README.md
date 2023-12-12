@@ -10,8 +10,8 @@
 ------
 ## 使用方法
 ### V账号使用方法
-1. [V2fly介绍]([https://www.v2fly.com/](https://www.v2fly.org/))
-2. [工具下载]([https://www.v2fly.org/awesome/tools.html](https://www.v2fly.org/awesome/tools.html))
+1. [V2fly介绍](https://www.v2fly.org/)
+2. [工具下载](https://www.v2fly.org/awesome/tools.html)
 3. 通过导入剪切板或扫描二维码的方式，导入账号
 ------
 ## 账号来源与特点
